@@ -13,6 +13,6 @@ setup(
         "langchain",
         "PyPDF2",
         "streamlit",
-        "python-dorenv"
+        "python-dotenv"
     ]
 )
