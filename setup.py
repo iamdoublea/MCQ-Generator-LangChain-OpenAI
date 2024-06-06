@@ -8,12 +8,11 @@ setup(
     author_email = 'contact@aadityaseal.com',    
     packages=find_packages(),
     install_requires=[
-        "numpy",
-        "pandas",
-        "matplotlib",
-        "seaborn",
-        "scikit-learn",
-        "scipy",
-        "statsmodels"
+        "huggingface",
+        "openai",
+        "langchain",
+        "PyPDF2",
+        "streamlit",
+        "python-dorenv"
     ]
 )
