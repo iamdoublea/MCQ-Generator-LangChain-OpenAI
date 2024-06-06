@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: mcqgenerator
+Version: 0.0.1
+Author: Aaditya Seal
+Author-email: contact@aadityaseal.com
+Requires-Dist: huggingface
+Requires-Dist: openai
+Requires-Dist: langchain
+Requires-Dist: PyPDF2
+Requires-Dist: streamlit
+Requires-Dist: python-dotenv
