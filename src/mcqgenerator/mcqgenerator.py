@@ -3,13 +3,13 @@ import json
 import traceback
 from dotenv import load_dotenv
 from src.mcqgenerator.logger import logging
-from src.mcqgenerator.utils import 
+from src.mcqgenerator.utils import read_file, get_table_data
 
 
 from langchain.chat_models import ChatOpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
-from langchain.chains import SequentailChain
+from langchain.chains import SequentialChain
 
 # load environment variables
 load_dotenv()
